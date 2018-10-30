@@ -1,0 +1,15 @@
+{
+  "name": "decorator-pattern",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Somebuddy",
+  "license": "MIT",
+  "scripts": {
+    "start": "babel-node src/index.js"
+  },
+  "dependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/node": "^7.0.0",
+    "@babel/preset-env": "^7.1.0"
+  }
+}
