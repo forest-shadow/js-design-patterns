@@ -1,4 +1,4 @@
-import Course from './src/Course'
+import Course from './Course'
 
 const course = new Course({
   id: 1,

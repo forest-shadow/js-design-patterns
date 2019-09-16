@@ -1,7 +1,19 @@
 {
   "name": "js-design-patterns",
   "version": "1.0.0",
-  "main": "index.js",
   "author": "Somebuddy",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "builder": "babel-node builder/index.js",
+    "composite": "babel-node composite/index.js",
+    "decorator": "babel-node decorator/index.js",
+    "factory": "babel-node factory/index.js",
+    "module": "babel-node module/index.js",
+    "singleton": "babel-node singleton/index.js"
+  },
+  "dependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/node": "^7.0.0",
+    "@babel/preset-env": "^7.1.0"
+  }
 }
